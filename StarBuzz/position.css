@@ -7,12 +7,15 @@ body {
     position: relative;
     top: 1em;
     left: 1em;
+
 }
 div {
     background-color: green;
     height: 7em;
     width: 7em;
     border-radius: 1em;
+    text-align: center;
+    line-height: 7em;
 
 }
 
@@ -32,7 +35,7 @@ div {
 }
 
 #sticky {
-    background-color: black;
+    background-color: violet;
     position: sticky;
     top: 0;
 }

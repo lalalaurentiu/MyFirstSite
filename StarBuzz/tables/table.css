@@ -1,0 +1,29 @@
+table {
+    font-family: sans-serif;
+    border-style: solid;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: ghostwhite;
+}
+
+th {
+    background-color: cornsilk;
+    border-style: solid;
+    border-width: 1px;
+    text-align: left;
+    padding: 0.5em 1em;
+    
+}
+
+td {
+    border-style: solid none;
+    border-width: 1px;
+    padding: 0.5em 1em;
+}
+
+tr:nth-child(2n+1) {
+    background-color: gainsboro;
+}
